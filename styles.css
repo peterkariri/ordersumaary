@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.row-1{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin: 0;
+    
+    
+    
+}
+.child{
+    width: 350px;
+    border-radius: 20px;
+    margin: 0px auto;
+    background-color: white;
+    height:600px ;
+    position:relative;
+}
+
+.child > img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    left:50px;
+    align-items: center;
+    text-align: center;
+    font-weight:normal;
+    color: rgb(170, 168, 166);
+    
+}
+.annual{
+    background-color:rgb(247, 243, 243);
+    border-radius: 30px;
+    width: 300px;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+}
+.annual > img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.annual h2{
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    bottom: 25px;
+    left: 70px;
+    
+}
+#new{
+    position: absolute;
+    color: rgb(175, 174, 173);
+    top:18px;
+    left:0px
+}
+#change{
+    color: aqua;
+    position: absolute;
+    left:75%;
+    top:40%
+}
+#proceed{
+    position:absolute;
+    right:50px;
+    bottom: 140px;
+    width: 250px;
+    border-radius: 30px;
+    height:30px;
+    background-color: rgb(5, 5, 113);
+    transition: all ease-in-out 1s;
+    color:white;
+    box-shadow: 0px 15px 10px rgb(197, 197, 211);
+    
+    
+}
+#proceed:hover{
+    cursor: pointer;
+    background-color: darkmagenta;
+    font-size: 20px;
+}
+
+#cancel{
+    position: absolute;
+    bottom: 60px;
+    left:125px;
+    border-radius:20px;
+    background-color: rgb(232, 20, 20);
+}
